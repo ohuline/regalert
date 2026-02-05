@@ -4,34 +4,106 @@
   <meta charset="utf-8">
   <title>RegAlert</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      margin: 40px;
-      max-width: 780px;
-      line-height: 1.6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #ffffff;
       color: #111;
+      margin: 0;
+      padding: 0;
     }
-    a { color: #0645ad; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    h1 { font-size: 1.6em; margin-bottom: 0.5em; }
-    p { margin-bottom: 1em; }
+
+    .container {
+      max-width: 760px;
+      margin: 80px auto;
+      padding: 0 24px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.4em;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 1.05rem;
+      color: #444;
+      margin-bottom: 2.5em;
+      line-height: 1.6;
+    }
+
+    .box {
+      border-left: 3px solid #e0e0e0;
+      padding-left: 20px;
+      margin-bottom: 3em;
+    }
+
+    .box p {
+      margin: 0 0 1em 0;
+      font-size: 1rem;
+      line-height: 1.65;
+    }
+
+    .nav {
+      margin-top: 2.5em;
+    }
+
+    .nav a {
+      display: block;
+      font-size: 1.05rem;
+      color: #0645ad;
+      text-decoration: none;
+      margin-bottom: 0.8em;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 5em;
+      font-size: 0.85rem;
+      color: #777;
+    }
   </style>
 </head>
 <body>
 
-<h1>RegAlert</h1>
+<div class="container">
 
-<p>
-RegAlert publie des lectures économiques de textes réglementaires récents,
-sans analyse juridique ni recommandation.
-</p>
+  <h1>RegAlert</h1>
 
-<p>
-<a href="presentation.html">Présentation du dispositif</a><br>
-<a href="lectures-par-situation.html">Lectures par situation</a><br>
-<a href="rapport-exemple-janvier-2026.html">Rapport exemple — janvier 2026</a>
-</p>
+  <div class="subtitle">
+    Lectures économiques de textes réglementaires récents.
+  </div>
+
+  <div class="box">
+    <p>
+      RegAlert est un dispositif de lecture consacré à l’analyse économique et organisationnelle
+      de textes réglementaires récents.
+    </p>
+    <p>
+      Il propose des rapports structurés visant à identifier, sans analyse juridique ni recommandation,
+      les textes susceptibles de produire des effets économiques ou organisationnels notables.
+    </p>
+    <p>
+      Les publications privilégient la lisibilité, la hiérarchisation et la mise en perspective
+      transversale, afin de permettre une évaluation éclairée du corpus réglementaire observé.
+    </p>
+  </div>
+
+  <div class="nav">
+    <a href="presentation.html">→ Présentation du dispositif</a>
+    <a href="lectures-par-situation.html">→ Lectures par situation</a>
+    <a href="rapport-exemple-janvier-2026.html">→ Rapport exemple — janvier 2026</a>
+  </div>
+
+  <footer>
+    Publication indépendante · sans analyse juridique · sans recommandation
+  </footer>
+
+</div>
 
 </body>
 </html>
